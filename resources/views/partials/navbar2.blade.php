@@ -4,7 +4,7 @@
       <div class="px-4">
         <a href="/" class="block ">
         <div>
-          <img class="h-14" src="img/logo/logo.png" alt="">
+          <img class="h-20" src="img/logo/logo.png" alt="">
         </div>
         </a>
       </div>
