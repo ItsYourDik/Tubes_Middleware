@@ -18,7 +18,9 @@
             <div class="h-full w-full bg-cover bg-local group-hover:scale-105 transition-all duration-500" style="background-image: url(img/1.jpg)">
             </div>
             <div class="w-full h-full bg-gradient-to-t from-black/50 invisible group-hover:visible transition-all duration-500 absolute bottom-0">
+
                 <p class="text-white pt-60 pl-5">Farhat Abdurachman</p>
+
             </div>
         </div>
           <div class="aspect-w-3 aspect-h-2 overflow-hidden rounded-lg group relative">

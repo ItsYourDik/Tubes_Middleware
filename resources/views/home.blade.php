@@ -71,6 +71,7 @@
                         <div class="absolute inset-x-5 bottom-6">
                           <div class="flex gap-3 text-white">
                             <div>
+
                               <p class="font-sembold text-xl text-gray-100">LAKE</p>
                             </div>
                           </div>
@@ -85,6 +86,7 @@
                         <div class="absolute inset-x-5 bottom-6">
                           <div class="flex gap-3 text-white">
                             <div>
+
                               <p class="font-sembold text-xl text-gray-100">FOREST</p>
                             </div>
                           </div>
