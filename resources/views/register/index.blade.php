@@ -5,7 +5,7 @@
     @vite('resources/css/app.css')
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Register</title>
     
 </head>
 <body>
@@ -19,7 +19,7 @@
             <div class="m-auto py-12 px-6 sm:p-20 xl:w-10/12">
                 <div class="space-y-4">
                     <a href="">
-                        <img src="../public/images/logo.svg" class="w-40" alt="tailus logo">
+                        <img src="img/logo/logo2.png" class="w-20" alt="logo">
                     </a>
                     <p class="font-medium text-lg text-gray-600">Register Now </p>
                 </div>
