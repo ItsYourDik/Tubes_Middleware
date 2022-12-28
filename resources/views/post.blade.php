@@ -20,6 +20,8 @@
     <article class="text-justify">
       {!! $post->body !!}
     </article>
+    <br>
+    <a href="/posts"class="rounded-full bg-neutral-900 py-2 px-3 font-com text-sm capitalize text-white shadow shadow-black/60">Back To Post</a>
   </div>
 
 </section>
