@@ -37,7 +37,7 @@
 
     <div class="w-full border-gray-700 pt-10">
       <p class="text-center text-xs font-medium text-stone-200">
-        Dibuat Oleh Kelompok Middleware, copyrigt 2022.
+        Created by MIDDLEWARE TEAM, Copyrigt 2022.
       </p>
     </div>
   </div>

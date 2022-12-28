@@ -4,7 +4,7 @@
     <section>
         <div class="min-h-screen w-full flex flex-col justify-center items-center bg-fixed bg-cover" style="background-image: url(img/jumbotron.jpg)">
             <h1 class="font-Montserrat font-bold text-7xl text-white">VAKANTIE</h1>
-            <h1 class="font-Montserrat font-bold text-5xl text-white">PERFECT PLACE FOR YOU HEALING</h1>
+            <h1 class="font-Montserrat font-bold text-5xl text-white">LIFE'S BEAUTIFUL WITH NATURE</h1>
         </div>
     </section>
 
@@ -43,8 +43,7 @@
                                 <div class="absolute inset-x-5 bottom-6">
                                     <div class="flex gap-3 text-white">
                                             <div>
-                                                <p class="font-sembold text-xl text-gray-100">Beyond Builder</p>
-                                                <p class="text-gray-300">Better Design</p>
+                                                <p class="font-sembold text-xl text-gray-100">WATERFALL</p>
                                             </div>
                                     </div>
                                 </div>
@@ -58,8 +57,7 @@
                             <div class="absolute inset-x-5 bottom-6">
                                 <div class="flex gap-3 text-white">
                                     <div>
-                                        <p class="font-sembold text-xl text-gray-100">Familly and Sunset</p>
-                                        <p class="text-gray-300">Better Design</p>
+                                        <p class="font-sembold text-xl text-gray-100">MOUNTAIN</p>
                                     </div>
                                 </div>
                             </div>
@@ -73,8 +71,8 @@
                         <div class="absolute inset-x-5 bottom-6">
                           <div class="flex gap-3 text-white">
                             <div>
-                              <p class="font-sembold text-xl text-gray-100">Tailwind CSS</p>
-                              <p class="text-gray-300">Better Design</p>
+
+                              <p class="font-sembold text-xl text-gray-100">LAKE</p>
                             </div>
                           </div>
                         </div>
@@ -88,8 +86,8 @@
                         <div class="absolute inset-x-5 bottom-6">
                           <div class="flex gap-3 text-white">
                             <div>
-                              <p class="font-sembold text-xl text-gray-100">Tailwind CSS</p>
-                              <p class="text-gray-300">Better Design</p>
+
+                              <p class="font-sembold text-xl text-gray-100">FOREST</p>
                             </div>
                           </div>
                         </div>
@@ -110,7 +108,7 @@
                     <div class="h-full w-full bg-cover bg-local group-hover:scale-105 transition-all duration-500" style="background-image: url(img/1.jpg)">
                     </div>
                     <div class="w-full h-full bg-gradient-to-t from-black/50 invisible group-hover:visible transition-all duration-500 absolute bottom-0">
-                        <p class="text-white absolute bottom-7 left-4">asdasdasd</p>
+                        <p class="text-white absolute bottom-7 left-4">The Most Visited Waterfall in Bandung!</p>
                     </div>
                 </div>
                 <div class="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
@@ -118,14 +116,14 @@
                     <div class="h-full w-full bg-cover bg-local group-hover:scale-105 transition-all duration-500" style="background-image: url(img/1.jpg)">
                     </div>
                     <div class="w-full h-full bg-gradient-to-t from-black/50 invisible group-hover:visible transition-all duration-500 absolute bottom-0">
-                        <p class="text-white pt-64 pl-5">asdasdasd</p>
+                        <p class="text-white pt-64 pl-5">The Most Visited Lake in Bandung</p>
                     </div>
                   </div>
                   <div class="aspect-w-3 aspect-h-2 overflow-hidden rounded-lg group relative">
                     <div class="h-full w-full bg-cover bg-local group-hover:scale-105 transition-all duration-500" style="background-image: url(img/1.jpg)">
                     </div>
                     <div class="w-full h-full bg-gradient-to-t from-black/50 invisible group-hover:visible transition-all duration-500 absolute bottom-0 ">
-                        <p class="text-white pt-64 pl-5">asdasdasd</p>
+                        <p class="text-white pt-64 pl-5">The Most Visited Forest in Bandung</p>
                     </div>
                   </div>
                 </div>
