@@ -24,7 +24,7 @@
                 </div>
 
                 @if (session()->has('success'))
-                <div class="mt-2 bg-red-500 text-white p-4 rounded-lg text-lg">{{ session('success') }}</div>
+                <div class="mt-2 bg-green-500 text-white p-4 rounded-lg text-lg">{{ session('success') }}</div>
                 @endif
                 @if (session()->has('loginError'))
                 <div class="mt-2 bg-red-500 text-white p-4 rounded-lg text-lg">{{ session('loginError') }}</div>
@@ -57,8 +57,8 @@
                         <button class="w-full px-6 py-3 rounded-xl bg-sky-500 transition hover:bg-sky-600 focus:bg-sky-600 active:bg-sky-800">
                             <span class="font-semibold text-white text-lg">Login</span>
                         </button>
-                        <a href="#" type="reset" class="w-max p-3 -ml-3">
-                            <span class="text-sm tracking-wide text-blue-600">Create new account</span>
+                        <a href="/register" type="reset" class="w-max p-3 -ml-3">
+                            <span class="text-sm tracking-wide text-blue-600">Don't have a account? Create new account</span>
                         </a>
                     </div>
                 </form>
