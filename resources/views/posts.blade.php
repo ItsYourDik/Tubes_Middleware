@@ -45,7 +45,7 @@
 
               <h1 class="font-dmserif text-3xl font-bold text-white">{{ $post->title }}</h1>
               <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 ">{{ $post->excerpt }}</p>
-              <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+              <a href="/posts/{{ $post->slug }}" class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</a>
             </div>
           </div>
           
