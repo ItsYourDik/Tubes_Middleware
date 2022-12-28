@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    
 </head>
 <body>
     <section>
@@ -24,27 +25,55 @@
                 </div>
                 
 
-                <form action="" class="space-y-6 py-6">
-                    <div>
+                <form action="/register" method="POST" class="space-y-6 py-6">
+                    @csrf
+                    <div class="flex flex-col items-end">
                         <input 
-                                type="email" 
-                                placeholder="Your Email"
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your Name"
                                 class="w-full py-3 px-6 ring-1 ring-gray-300 rounded-xl placeholder-gray-600 bg-transparent transition disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 invalid:ring-red-400 focus:invalid:outline-none"
                         >
                     </div>
 
                     <div class="flex flex-col items-end">
                         <input 
-                                type="password" 
-                                placeholder="What's the secret word ?"
+                                type="text" 
+                                id="username"
+                                name="username"
+                                placeholder="Username"
+                                class="w-full py-3 px-6 ring-1 ring-gray-300 rounded-xl placeholder-gray-600 bg-transparent transition disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 invalid:ring-red-400 focus:invalid:outline-none"
+                        >
+                    </div>
+                    <div>
+                        <input 
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Your Email"
+                                class="w-full py-3 px-6 ring-1 ring-gray-300 rounded-xl placeholder-gray-600 bg-transparent transition disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 invalid:ring-red-400 focus:invalid:outline-none"
+                        >
+                    </div>
+                    
+
+                    <div class="flex flex-col items-end">
+                        <input 
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder="Password"
                                 class="w-full py-3 px-6 ring-1 ring-gray-300 rounded-xl placeholder-gray-600 bg-transparent transition disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 invalid:ring-red-400 focus:invalid:outline-none"
                         >
                     </div>
 
                     <div>
-                        <button class="w-full px-6 py-3 rounded-xl bg-sky-500 transition hover:bg-sky-600 focus:bg-sky-600 active:bg-sky-800">
+                        <button class="w-full px-6 py-3 rounded-xl bg-sky-500 transition hover:bg-sky-600 focus:bg-sky-600 active:bg-sky-800" type="submit">
                             <span class="font-semibold text-white text-lg">Register</span>
                         </button>
+                        <a href="/login" type="reset" class="w-max p-3 -ml-3">
+                            <span class="text-sm tracking-wide text-blue-600">Have An Account?Login Here!</span>
+                        </a>
                     </div>
                 </form>
 
