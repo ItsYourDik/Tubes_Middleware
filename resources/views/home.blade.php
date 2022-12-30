@@ -16,7 +16,7 @@
                 </div>
                 <div class="ml-10 self-center font-Montserrat">
                     <h1 class="text-2xl ">Pangalengan</h1>
-                    <p class="pt-2">Pangalengan, offers many Instagramable tourist hits. Pangalengan tourist attractions that are currently hits vary, including natural tourism and man-made tourism, all of which you can try when you visit there. The cool air also makes your tourism activities more comfortable.</p>
+                    <p class="pt-2">Pangalengan, offers many Instagramable tourist hits. Pangalengan tourist attractions that are currently hits vary, including natural tourism and man-made tourism, all of which you can try when you visit there.The cool air also makes your tourism activities more comfortable.</p>
                     <button class="my-2 px-3 py-2 bg-blue-600 rounded-md text-white outline-none focus:ring-4 shadow-lg  active:scale-90  hover:bg-blue-500">Explore</button>
                 </div>
             </div>
