@@ -36,19 +36,25 @@ class DatabaseSeeder extends Seeder
         User::factory(3)->create();
 
         Category::create([
-            'name' => 'Web Programming',
-            'slug' => 'web-programming'
+            'name' => 'Mountain',
+            'slug' => 'mountain'
         ]);
 
         Category::create([
-            'name' => 'Web Design',
-            'slug' => 'web-design'
+            'name' => 'Waterfall',
+            'slug' => 'waterfall'
         ]);
 
         Category::create([
-            'name' => 'Personal',
-            'slug' => 'personal'
+            'name' => 'Lake',
+            'slug' => 'lake'
         ]);
+
+        Category::create([
+            'name' => 'Forest',
+            'slug' => 'forest'
+        ]);
+
 
         Post::factory(20)->create();
 
