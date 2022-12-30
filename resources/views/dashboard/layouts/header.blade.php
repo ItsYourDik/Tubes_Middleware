@@ -4,5 +4,5 @@
     <h4 class="font-bold text-gray-500 p-1 text-4xl">Dashboard</h4>
 
   </div>
-  <p class="text-gray-400 px-1 text-xl font-semibold">Hi Dik Dik Nur Illahi</p>
+  <p class="text-gray-400 px-1 text-xl font-semibold">Hi {{ auth()->user()->name }}</p>
 </div>
