@@ -23,7 +23,8 @@
         </ul>
       </div>
       <div class="mb-12 w-full px-4 md:w-1/3">
-        <h3 class="mb-5 text-xl font-semibold text-white">TAUTAN</h3>
+        <h3 class="mb-5 text-xl font-semibold text-white">Link</h3>
+        <h3 class="mb-5 text
         <ul class="text-stone-200">
           <li>
             <a href="#home" class="mb-3 inline-block text-base hover:text-primary">Home</a>

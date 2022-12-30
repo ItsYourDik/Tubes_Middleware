@@ -75,6 +75,7 @@
                             <span class="text-sm tracking-wide text-blue-600">Have An Account?Login Here!</span>
                         </a>
                     </div>
+                    <a href="/posts"class="rounded bg-sky-500 py-2 px-3 font-com text-sm capitalize text-white shadow shadow-black/60">Back To Home</a>
                 </form>
 
             </div>
