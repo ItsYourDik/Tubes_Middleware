@@ -21,7 +21,7 @@
                     <a href="">
                         <img src="img/logo/logo2.png" class="w-20" alt="logo">
                     </a>
-                    <p class="font-medium text-lg text-gray-600">Register Now </p>
+                    <p class="font-medium text-lg text-gray-600">Register Now</p>
                 </div>
                 
 
@@ -72,7 +72,7 @@
                             <span class="font-semibold text-white text-lg">Register</span>
                         </button>
                         <a href="/login" type="reset" class="w-max p-3 -ml-3">
-                            <span class="text-sm tracking-wide text-blue-600">Have An Account?Login Here!</span>
+                            <span class="text-sm tracking-wide text-blue-600">Have an Account? Login Here!</span>
                         </a>
                     </div>
                     <a href="/posts"class="rounded bg-sky-500 py-2 px-3 font-com text-sm capitalize text-white shadow shadow-black/60">Back To Home</a>

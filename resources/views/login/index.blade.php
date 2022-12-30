@@ -59,7 +59,7 @@
                             <span class="font-semibold text-white text-lg">Login</span>
                         </button>
                         <a href="/register" type="reset" class="w-max p-3 -ml-3">
-                            <span class="text-sm tracking-wide text-blue-600">Don't have a account? Create new account</span>
+                            <span class="text-sm tracking-wide text-blue-600">Don't have an account? Create new account</span>
                         </a>
                     </div>
                     <a href="/posts"class="rounded bg-sky-500 py-2 px-3 font-com text-sm capitalize text-white shadow shadow-black/60">Back To Home</a>

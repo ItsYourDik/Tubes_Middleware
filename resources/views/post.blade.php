@@ -17,6 +17,13 @@
 
   <div class="h-screen mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <h1 class="font-Montserrat font-semibold text-3xl pb-4">{{ $post['title'] }}</h1>
+    <p>By <a href="/posts?author={{ $post->author->username }}" 
+      class="text-decoration-none">{{ $post->author->name }}
+      </a> in <a href="/posts?category={{$post->category->slug}}" 
+      class="text-decoration-none">{{$post->category->name}}
+      </a>
+    </p>
+    <br>
     <article class="text-justify">
       {!! $post->body !!}
     </article>

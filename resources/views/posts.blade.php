@@ -8,7 +8,7 @@
       <div class="mt-8 grid grid-cols-3 h-96 hover:underline decoration-emerald-300 overflow-hidden ">
         <div class="bg-teal-900 ">
           <h1 class="mt-28 mx-4 text-emerald-300 font-Montserrat font-semibold">
-            {{ $posts[0]->category->name }}
+            By {{ $posts[0]->author->name }} in {{ $posts[0]->category->name }}
           </h1>
           <h1 class="mx-4 font-Montserrat font-black text-white text-4xl">
             {{ $posts[0]->title }}
@@ -44,6 +44,9 @@
             <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 transition-all duration-500 group-hover:translate-y-0">
 
               <h1 class="font-dmserif text-3xl font-bold text-white">{{ $post->title }}</h1>
+              <h1 class="font-dmserif text-3xl font-bold text-white">{{ $post->title }}</h1>
+              <h1 class="font-dmserif text-m text-white">{{$post->author->name }} {{ $post->created_at->diffForHumans()}}</h1>
+              <br>
               <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 ">{{ $post->excerpt }}</p>
               <a href="/posts/{{ $post->slug }}" class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</a>
             </div>
