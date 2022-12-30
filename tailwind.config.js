@@ -8,12 +8,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Montserrat' : ['Montserrat']
+        'Montserrat': ['Montserrat']
 
       },
       colors: {
         'biru': '#4e9fbf',
-        'dark' : '#132d38',
+        'dark': '#132d38',
       },
     },
   },
@@ -22,6 +22,5 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/forms'),
   ],
 }
