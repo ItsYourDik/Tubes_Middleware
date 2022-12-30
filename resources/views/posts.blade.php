@@ -59,7 +59,6 @@
 <p class="flex justify-center items-center font-black text-3xl h-screen">No Post Fond.</p>
 @endif
 
-</section>
 
 
 @endsection
