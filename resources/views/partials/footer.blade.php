@@ -3,33 +3,37 @@
     <div class="flex flex-wrap">
       <div class="mb-12 w-full px-4 font-medium text-stone-200 md:w-1/3">
         <h2 class="mb-5 text-4xl font-bold text-white">VAKANTIE</h2>
-        <h3 class="mb-2 text-2xl font-bold">PERFECT PLACE FOR YOU HEALING</h3>
+        <h3 class="mb-2 text-2xl font-bold">LIFE'S BEAUTIFUL WITH NATURE</h3>
       </div>
       <div class="mb-12 w-full px-4 md:w-1/3">
         <h3 class="mb-5 text-xl font-semibold text-white">DESTINATION</h3>
         <ul class="text-stone-200">
           <li>
-            <a href="#" class="mb-3 inline-block text-base hover:text-primary">Pangalengan</a>
+            <a href="#" class="mb-3 inline-block text-base hover:text-primary">WATERFALL</a>
           </li>
           <li>
-            <a href="#" class="mb-3 inline-block text-base hover:text-primary">Ciwidey</a>
+            <a href="#" class="mb-3 inline-block text-base hover:text-primary">MOUNTAIN</a>
           </li>
           <li>
-            <a href="#" class="mb-3 inline-block text-base hover:text-primary">Lembang</a>
+            <a href="#" class="mb-3 inline-block text-base hover:text-primary">LAKE</a>
+          </li>
+          <li>
+            <a href="#" class="mb-3 inline-block text-base hover:text-primary">FOREST</a>
           </li>
         </ul>
       </div>
       <div class="mb-12 w-full px-4 md:w-1/3">
         <h3 class="mb-5 text-xl font-semibold text-white">Link</h3>
+        <h3 class="mb-5 text
         <ul class="text-stone-200">
           <li>
             <a href="#home" class="mb-3 inline-block text-base hover:text-primary">Home</a>
           </li>
           <li>
-            <a href="#about" class="mb-3 inline-block text-base hover:text-primary">Post</a>
+            <a href="/posts" class="mb-3 inline-block text-base hover:text-primary">Blog</a>
           </li>
           <li>
-            <a href="#portfolio" class="mb-3 inline-block text-base hover:text-primary">About US</a>
+            <a href="/about" class="mb-3 inline-block text-base hover:text-primary">About Us</a>
           </li>
         </ul>
       </div>
