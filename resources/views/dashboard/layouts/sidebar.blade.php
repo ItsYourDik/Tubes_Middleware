@@ -3,8 +3,8 @@
   <div class="sidebar min-h-screen w-[3.35rem] overflow-hidden border-r hover:w-56 hover:bg-white hover:shadow-lg">
     <div class="flex h-screen flex-col justify-between pt-2 pb-6">
       <div>
-        <div class="w-max p-2.5">
-          <img src="https://tailus.io/images/logo.svg" class="w-32" alt="">
+        <div class="w-full p-2.5">
+          <img src="../img/logo/logo2.png" class="w-24 mx-auto" alt="">
         </div>
         <ul class="mt-6 space-y-2 tracking-wide">
           <li class="min-w-max">
