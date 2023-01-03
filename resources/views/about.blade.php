@@ -3,8 +3,8 @@
 @section('container')
 
 
-<section class="aspect-h-3">
-  <div class="bg-cover rounded-lg mx-20 mt-10" style="background-image: url(img/apa.jpg)">
+<section class="aspect-h-3 ">
+  <div class="bg-cover rounded-lg mx-20 mt-20" style="background-image: url(img/apa.jpg)">
     
     <div class="pt-3 font-Montserrat text-6xl font-bold" >
       <span class="before:block before:absolute before:-inset-2 before:-skew-y-3 before:bg-biru relative inline-block mb-6">

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Post;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class AdminCategoryController extends Controller
@@ -16,8 +18,18 @@ class AdminCategoryController extends Controller
     {
 
         // $this->authorize('admin'); ini adalah gate
-        return view('dashboard.categories.index', [
-            'categories' => Category::all()
+        $title = '';
+        if (request('category')) {
+            $category = Category::firstWhere('slug', request('category'));
+            $title = 'Post in ' . $category->name;
+        }
+
+        if (request('author')) {
+            $author = User::firstWhere('username', request('author'));
+            $title = 'Post by ' . $author->name;
+        }
+        return view('dashboard.admin.index', [
+            "posts" => Post::latest()->Filter(request(['search', 'category', 'author']))->paginate(15)->withQueryString()
         ]);
     }
 
@@ -48,9 +60,11 @@ class AdminCategoryController extends Controller
      * @param  \App\Models\category  $category
      * @return \Illuminate\Http\Response
      */
-    public function show(category $category)
+    public function show(Post $post)
     {
-        //
+        return view('dashboard.admin.show', [
+            'post' => $post
+        ]);
     }
 
     /**

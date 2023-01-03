@@ -1,4 +1,4 @@
-<footer class="min-h-[20rem] bg-cover mt-10" style=" background-image: url(img/apa.jpg)">
+<footer class="min-h-[20rem] bg-cover mt-10" style=" background-image: url(../img/apa.jpg)">
   <div class="container bg-gradient-to-t  from-gray-800/70 pt-24 pb-12">
     <div class="flex flex-wrap">
       <div class="mb-12 w-full px-4 font-medium text-stone-200 md:w-1/3">
@@ -22,8 +22,8 @@
           </li>
         </ul>
       </div>
-      <div class="mb-12 w-full px-4 md:w-1/3">
-        <h3 class="mb-5 text-xl font-semibold text-white">Link</h3>
+      <div class="mb-12 w-full px-4 md:w-1/3 text-white">
+        <h3 class="mb-5 text-xl font-semibold ">Link</h3>
         <h3 class="mb-5 text
         <ul class="text-stone-200">
           <li>

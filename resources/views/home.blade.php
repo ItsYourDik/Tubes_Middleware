@@ -37,64 +37,22 @@
             <div class="flex h-[55rem] items-center justify-center bg-gradient-to-t from-white">
                 <div class="mx-auto max-w-6xl px-6">
                     <div class="flex [&:hover>div]:w-16 [&>div:hover]:w-[45rem]">
+                      @foreach ($categories as $category)
                         <div class="group relative h-[30rem] w-[40rem] cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200">
-                        <a href="#">
-                            <img class="h-full object-cover transition-all group-hover:scale-125" src="https://source.unsplash.com/1200x400?waterfall" alt="" />
+                        <a href="/posts?category={{ $category->slug }}">
+                            <img class="h-full object-cover transition-all group-hover:scale-125" src="https://source.unsplash.com/1200x400?{{ $category->name }}" alt="{{ $category->name }}" />
                             <div class="invisible absolute inset-0 bg-gradient-to-b from-biru/20 to-black group-hover:visible">
                                 <div class="absolute inset-x-5 bottom-6">
                                     <div class="flex gap-3 text-white">
                                             <div>
-                                                <p class="font-sembold text-xl text-gray-100">WATERFALL</p>
+                                                <p class="font-sembold text-xl text-gray-100">{{ $category->name }}</p>
                                             </div>
                                     </div>
                                 </div>
                             </div>
                         </a>
                         </div>
-                        <div class="group relative h-[30rem] w-[40rem] cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200">
-                        <a href="">
-                            <img class="h-full object-cover transition-all group-hover:scale-125" src="https://source.unsplash.com/1200x400?mountain" alt="" />
-                        <div class="invisible absolute inset-0 bg-gradient-to-b from-biru/20 to-black group-hover:visible">
-                            <div class="absolute inset-x-5 bottom-6">
-                                <div class="flex gap-3 text-white">
-                                    <div>
-                                        <p class="font-sembold text-xl text-gray-100">MOUNTAIN</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    </div>
-                    <div class="group relative h-[30rem] w-[40rem] cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200">
-                    <a href="">
-                        <img class="h-full object-cover transition-all group-hover:scale-125" src="https://source.unsplash.com/1200x400?lake" alt="" />
-                      <div class="invisible absolute inset-0 bg-gradient-to-b from-biru/20 to-black group-hover:visible">
-                        <div class="absolute inset-x-5 bottom-6">
-                          <div class="flex gap-3 text-white">
-                            <div>
-
-                              <p class="font-sembold text-xl text-gray-100">LAKE</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    </div>
-                    <div class="group relative h-[30rem] w-[40rem] cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200">
-                    <a href="">
-                      <img class="h-full object-cover transition-all group-hover:scale-125" src="https://source.unsplash.com/1200x400?forest" alt="" />
-                      <div class="invisible absolute inset-0 bg-gradient-to-b from-biru/20 to-black group-hover:visible">
-                        <div class="absolute inset-x-5 bottom-6">
-                          <div class="flex gap-3 text-white">
-                            <div>
-
-                              <p class="font-sembold text-xl text-gray-100">FOREST</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                    </div>
+                        @endforeach
                   </div>
                 </div>
             </div>

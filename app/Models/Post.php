@@ -50,6 +50,12 @@ class Post extends Model
         return $this->belongsTo(User::class, 'user_id');
     }
 
+
+    public function favorite()
+    {
+        return $this->hasMany(favorite::class);
+    }
+
     public function getRouteKeyName()
     {
         return 'slug';

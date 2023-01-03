@@ -19,9 +19,13 @@ class DashboardPostController extends Controller
     public function index()
     {
         return view('dashboard.posts.index', [
-            'posts' => Post::where('user_id', auth()->user()->id)->get()
+            'posts' => Post::where('user_id', auth()->user()->id)->get(),
         ]);
     }
+
+
+
+
 
     /**
      * Show the form for creating a new resource.
@@ -57,7 +61,7 @@ class DashboardPostController extends Controller
 
 
         $validatedData['user_id'] = auth()->user()->id;
-        $validatedData['excerpt'] = Str::limit(strip_tags($request->body, 200));
+        $validatedData['excerpt'] = Str::limit(strip_tags($request->body, 1));
 
         Post::create($validatedData);
 
