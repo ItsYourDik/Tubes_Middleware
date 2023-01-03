@@ -17,12 +17,12 @@ class FavoriteController extends Controller
     {
         $itemuser = $request->user();
         $itemfavorite = Favorite::where('user_id', $itemuser->id)
-            ->paginate(10);
+            ->paginate(9);
         $data = array(
-            'title' => 'favorite',
+            'title' => 'Favorite',
             'itemfavorite' => $itemfavorite
         );
-        return view('favorite.index', $data)->with('no', ($request->input('page', 1) - 1) * 10);
+        return view('favorite.index', $data);
     }
 
     /**
