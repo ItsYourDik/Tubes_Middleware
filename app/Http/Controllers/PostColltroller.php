@@ -14,15 +14,15 @@ class PostColltroller extends Controller
         $title = '';
         if (request('category')) {
             $category = Category::firstWhere('slug', request('category'));
-            $title = ' in ' . $category->name;
+            $title = 'Post in ' . $category->name;
         }
 
         if (request('author')) {
             $author = User::firstWhere('username', request('author'));
-            $title = ' by ' . $author->name;
+            $title = 'Post by ' . $author->name;
         }
         return view('posts', [
-            "title" => "All Posts" . $title,
+            "title" => $title,
             'active' => "posts",
             // "posts" => Post::all()
             "posts" => Post::latest()->Filter(request(['search', 'category', 'author']))->paginate(9)->withQueryString()

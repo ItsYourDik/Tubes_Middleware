@@ -2,6 +2,8 @@
 
 @section('container')
 
+<h1 class="mt-24 text-center font-Montserrat font-bold text-4xl">{{ $title }}</h1>
+
 @if($posts->count())
     <section class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
     <a href="/posts/{{ $posts[0]->slug }}">
@@ -43,11 +45,10 @@
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 transition-all duration-500 group-hover:translate-y-0">
 
-              <h1 class="font-dmserif text-3xl font-bold text-white">{{ $post->title }}</h1>
-              <h1 class="font-dmserif text-3xl font-bold text-white">{{ $post->title }}</h1>
-              <h1 class="font-dmserif text-m text-white">{{$post->author->name }} {{ $post->created_at->diffForHumans()}}</h1>
+              <h1 class="font-dmserif text-3xl font-bold text-white ">{{ Str::limit($post->title,25) }}</h1>
+              <h1 class="font-dmserif text-base text-white">{{$post->author->name }} {{ $post->created_at->diffForHumans()}}</h1>
               <br>
-              <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 ">{{ $post->excerpt }}</p>
+              <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 ">{{ Str::limit($post->excerpt,100) }}</p>
               <a href="/posts/{{ $post->slug }}" class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</a>
             </div>
           </div>
@@ -61,6 +62,10 @@
 @else
 <p class="flex justify-center items-center font-black text-3xl h-screen">No Post Fond.</p>
 @endif
+
+<div class="flex justify-center items-center mt-8">
+  {{ $posts->links() }}
+</div>
 
 
 

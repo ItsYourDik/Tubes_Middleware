@@ -62,7 +62,7 @@
                             <span class="text-sm tracking-wide text-blue-600">Don't have an account? Create new account</span>
                         </a>
                     </div>
-                    <a href="/posts"class="rounded bg-sky-500 py-2 px-3 font-com text-sm capitalize text-white shadow shadow-black/60">Back To Home</a>
+                    <a href="/"class="rounded bg-sky-500 py-2 px-3 font-com text-sm capitalize text-white shadow shadow-black/60">Back To Home</a>
                 </form>
 
             </div>
