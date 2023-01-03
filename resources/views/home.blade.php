@@ -17,8 +17,8 @@
                 </div>
                 <div class="ml-10 self-center font-Montserrat">
                     <h1 class="text-2xl ">Nimo Highland, A Very Popular New Tour in 2022</h1>
-                    <p class="pt-2">A new tourist spot opened with the theme of nature and the beauty of sunrise in the Banjarsari area, Kec. Pangalengan, Bandung Regency, West Java.</p>
-                    <button class="my-2 px-3 py-2 bg-blue-600 rounded-md text-white outline-none focus:ring-4 shadow-lg  active:scale-90  hover:bg-blue-500">Explore</button>
+                    <p class="py-2">A new tourist spot opened with the theme of nature and the beauty of sunrise in the Banjarsari area, Kec. Pangalengan, Bandung Regency, West Java.</p>
+                    <a href="/posts/nimo-highland" class="my-2 px-3 py-2 bg-blue-600 rounded-md text-white outline-none focus:ring-4 shadow-lg  active:scale-90  hover:bg-blue-500">Explore</a>
                 </div>
             </div>
         </div>
