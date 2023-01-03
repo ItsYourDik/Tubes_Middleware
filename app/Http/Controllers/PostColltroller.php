@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Favorite;
 use Illuminate\Http\Request;
 use App\Models\Post;
 use App\Models\User;
@@ -23,7 +24,6 @@ class PostColltroller extends Controller
         }
         return view('posts', [
             "title" => $title,
-            'active' => "posts",
             // "posts" => Post::all()
             "posts" => Post::latest()->Filter(request(['search', 'category', 'author']))->paginate(9)->withQueryString()
         ]);
@@ -33,8 +33,9 @@ class PostColltroller extends Controller
     {
         return view('post', [
             "title" => "Single Post",
-            'active' => "posts",
-            "post" => $post
+            "post" => $post,
+            $itemfavorite = Favorite::all()
+
         ]);
     }
 }

@@ -44,19 +44,6 @@
             <li class="group">
               <a href="/about" class="mx-8 flex py-2 text-base font-semibold text-white group-hover:text-primary dark:text-white">About</a>
             </li>
-            
-            {{-- <li class="mt-3 flex items-center pl-8 lg:mt-0">
-              <div class="flex">
-                <span class="mr-2 text-sm text-white font-semibold">light</span>
-                <input type="checkbox" class="hidden" id="dark-toggle" />
-                <label for="dark-toggle">
-                  <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
-                    <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
-                  </div>
-                </label>
-                <span class="ml-2 text-sm text-white font-semibold">dark</span>
-              </div>
-            </li> --}}
             @auth
             <div class="flex justify-end">
               <!-- Dropdown Container -->

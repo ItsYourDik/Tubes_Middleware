@@ -5,6 +5,12 @@
 
 <div class="p-4 font-bold text-gray-600">My Posts</div>
 
+@if(session()->has('success'))
+<div class="mt-2 bg-green-500 text-white p-4 rounded-lg text-lg" role="alert">
+  {{ session('success') }}
+</div>
+@endif
+
         <div class="flex mx-5 mb-4 text-white">
           <a href="/dashboard/posts/create" class="group">
             <div class="border bg-gradient-to-b from-blue-500 to-blue-600 shadow-blue-600/50 group-hover:bg-gradient-to-b group-hover:from-blue-700 group-hover:to-blue-800 p-2 flex rounded-lg">
